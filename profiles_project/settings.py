@@ -27,7 +27,8 @@ DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 ALLOWED_HOSTS = [
     'ec2-54-172-0-54.compute-1.amazonaws.com',
-    '127.0.0.1'
+    '127.0.0.1',
+    'profiles-rest-api-darh.onrender.com'
 ]
 
 
